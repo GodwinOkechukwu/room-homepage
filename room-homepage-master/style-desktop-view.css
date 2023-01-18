@@ -1,0 +1,139 @@
+@media only screen and (min-width: 1200px){
+    /* carousel section */
+    .mobile-img{
+        display: none;
+    }
+
+    .desktop-img{
+        display: block;
+        width: 60%;
+        height: 500px;
+    }
+
+    .container{
+        margin-top: 0px;
+        padding: 0;
+        width: 100%;
+      }
+
+      .carousel-item{
+        width: 100%;
+      }
+
+      .carousel-item img{
+        width: 60%;
+      }
+
+      .carousel-item article{
+        position: absolute;
+        left: 70%;
+        top: 10px;
+      }
+
+      article{
+        text-align: left;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 50px;
+        width: 40%;
+        height: 500px;
+        
+      }
+    
+
+      #carouselExampleControls{
+        margin: 0;
+        padding: 0;
+      }
+
+      .slide-btn-container{
+        height: 50px;
+        width: 10%;
+        background-color: hsl(0, 0%, 0%);
+        position: relative;
+        left: 60%;
+        bottom: 50px;
+      }
+
+      /* hidden elements */
+  .hidden{
+    display: block;
+  }
+
+  /* overlay */
+  .overlay{
+    z-index: 1;
+    visibility: hidden;
+    height: 10px;
+  }
+
+
+        /* nav section */
+    .logo{
+        position: absolute;
+        top: 60px;
+        left: 5%;
+    }
+
+    nav{
+    width: 30%;
+    background-color: transparent;
+    height: 0px;
+    position: absolute;
+    top: 18px;
+    left: 10%;
+    z-index: 1;
+    
+    }
+
+
+    nav ul li a{
+    color: hsl(0, 0%, 100%);
+    }
+
+    nav ul li a:hover{
+    color: hsl(0, 0%, 63%);
+    }
+
+    .hamburger{
+    display: none;
+    }
+
+    .close{
+        display: none;
+    }
+
+    /* about our furniture section */
+  #furniture{
+    margin-top: -50px;
+    position: relative;
+    height: 400px;
+  }
+
+  #furniture article{
+    width: 40%;
+    height: 300px;
+    padding: 20px;
+    padding-left: 50px;
+    position: absolute;
+    top: 0;
+    left: 30%;
+    margin-top: 0;
+  }
+
+  .dark-img{
+    width: 30%;
+    height: 300px;
+  }
+
+  .light-img{
+    width: 30%;
+    height: 300px;
+    margin-top: 0px;
+    position: absolute;
+    top: 0;
+    left: 70%;
+  }
+
+
+        }
